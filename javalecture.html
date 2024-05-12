@@ -1,0 +1,36 @@
+<!Doctype html>
+<html>
+<head>
+	<script type="text/javascript" src="lec10_4.js">
+	</script>
+</head>
+<body>
+	<h1>Lecture</h1>
+	<p id="demo">A paragraph</p>
+	<script>
+		funtion displayDate()
+		{
+			document.getElementId('demo').innerHTML = Date();
+			const fruits = ["Apple", "Orangjjje", Banana"];
+			let flength = fruits.length;
+			text = '<ul>';
+			for (let i=0; i<flength; i++)
+			{
+				text = text+"<li>"+fruits[i]+"</li>;
+			}
+			text=text+"</ul>";
+			document.getElementId('demo1').innerHTML=text;
+		}
+	</script>
+	<button type="button" onclick="displayDate();">
+		The date is?
+	</button>
+	<button type="button" onmouseover="myF();">Try me</button>
+	<script>
+		document.write('<p>' + (5+6) + ' Monkeys' + '</p>');
+		//window.alert("Are you sure?")
+	</script>
+	<button onclick="lightOn();">Turn on the light</button>
+	<img id="myLight" src="lightbulb.jpg">
+	<button onclick="lightOff();">Turn off the light</button>
+</body>
